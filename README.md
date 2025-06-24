@@ -1,2 +1,2 @@
-# configs
-All my configs when setting up my environment
+# Configs
+- Dev environment for setting up a new computer.
