@@ -7,11 +7,13 @@ sudo -v
 scripts=(./scripts/*)
 
 for script in "${scripts[@]}"; do
-	source "$script"
+	read -p "Do you want to run ${script}? [y/N]" yn
+	if [[ $yn == [Yy] ]]; then
+		echo "Installing ${script}"
+		source "$script"
+	else
+		echo "Not Installing ${script}"
+	fi
 done
-
-#source ./scripts/system.sh
-#source ./scripts/dev.sh
-#source ./scripts/apps.sh
 
 echo "Setup Complete!"
