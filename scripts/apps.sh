@@ -1,14 +1,14 @@
 #!/bin/bash
 
-#sudo apt install -y neofetch htop
+sudo apt install neofetch htop
 
-#flatpak install -y flathub com.brave.Browser
-#flatpak install -y flathub org.wezfurlong.wezterm
-#flatpak install -y flathub com.discordapp.Discord
-#flatpak install -y flathub com.valvesoftware.Steam
-#flatpak install -y flathub org.inkscape.Inkscape
-#flatpak install -y flathub org.gimp.GIMP
-#flatpak install -y flathub org.blender.Blender
-#flatpak install -y flathub org.ksnip.ksnip
+flatpak install flathub com.brave.Browser
+flatpak install flathub org.wezfurlong.wezterm
+flatpak install flathub com.discordapp.Discord
+flatpak install flathub com.valvesoftware.Steam
+flatpak install flathub org.inkscape.Inkscape
+flatpak install flathub org.gimp.GIMP
+flatpak install flathub org.blender.Blender
+flatpak install flathub org.ksnip.ksnip
 
 echo "App script ran"
