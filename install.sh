@@ -2,6 +2,8 @@
 #set -e
 
 echo "Starting System Setup..."
+cd $HOME
+cd configs
 sudo -v
 
 scripts=(./scripts/*)
