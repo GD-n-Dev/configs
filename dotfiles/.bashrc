@@ -16,3 +16,4 @@ alias gpush="git push"
 alias glog="git log"
 
 export PATH=$PATH:$HOME/devtools/Odin/
+export PATH=$PATH:/var/lib/flatpak/exports/bin:$HOME/.local/share/flatpak/exports/bin/
